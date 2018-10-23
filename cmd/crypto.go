@@ -24,7 +24,7 @@ import (
 // define the command
 type cryptoCommand struct {
 	// embedding cli.BaseCommand in each command
-	cli.BaseCommand
+	cli.RootCommand
 	Source  string
 	Encrypt bool
 	Decrypt bool

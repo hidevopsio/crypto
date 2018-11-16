@@ -16,9 +16,9 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/hidevopsio/hiboot/pkg/app"
-	"github.com/hidevopsio/hiboot/pkg/app/cli"
-	"github.com/hidevopsio/hiboot/pkg/utils/crypto/rsa"
+	"hidevops.io/hiboot/pkg/app"
+	"hidevops.io/hiboot/pkg/app/cli"
+	"hidevops.io/hiboot/pkg/utils/crypto/rsa"
 )
 
 // define the command
@@ -32,7 +32,7 @@ type cryptoCommand struct {
 }
 
 func init() {
-	app.Component("cli.rootCommand", newCryptoCommand)
+	app.Register("cli.rootCommand", newCryptoCommand)
 }
 
 // newCryptoCommand crypto command constructor

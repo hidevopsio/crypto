@@ -6,8 +6,8 @@ crypto is a command line tool that encrypt / decrypt text
 Type below command to install `crypto`
 
 ```bash
-go get -u github.com/hidevopsio/crypto
-go install github.com/hidevopsio/crypto
+go get -u crypto
+go install crypto
 ```
 
 ## How to use

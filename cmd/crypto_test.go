@@ -15,8 +15,8 @@
 package cmd
 
 import (
-	"hidevops.io/hiboot/pkg/app/cli"
-	"hidevops.io/hiboot/pkg/log"
+	"github.com/hidevopsio/hiboot/pkg/app/cli"
+	"github.com/hidevopsio/hiboot/pkg/log"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )
